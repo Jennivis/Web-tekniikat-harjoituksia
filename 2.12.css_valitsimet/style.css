@@ -14,10 +14,34 @@ h1, h2, h3, h4, h5, h5, .highlight {
     font-weight: bold;
 }
 
-#main-heading {
+#main-heading, h1 + p {
     color: green;
+}
+
+h1 ~ p {
+    font-style: italic;
 }
 
 .purple {
     color: purple;
+}
+
+div {
+    margin: 2rem;
+}
+
+div > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[required] {
+    border: 2px solid black;
+}
+
+input:focus {
+    border-color: green;
+}
+
+[class|="article" i] {
+    font-family: 'Courier New', Courier, monospace;
 }
