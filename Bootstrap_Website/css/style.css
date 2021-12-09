@@ -4,7 +4,7 @@ body {
 nav {
     margin: 10px;
     border-radius: 10px;
-    border: #e4bc6e solid 2px;
+    border: #e9d0b3 solid 2px;
 }
 
 #carouselExampleSlidesOnly {
@@ -23,7 +23,7 @@ img {
 .col {
     background-color: #fcf9f5;
     border-radius: 10px;
-    border: #e6c9a9 solid 5px;
+    /* border: #e9d0b3 solid 5px; */
     margin: 10px;
 }
 
@@ -41,8 +41,11 @@ img {
 }
 
 #pic1, #pic2, #pic3 {
-    padding-bottom: 15px;
-    padding-top: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#col-background {
+    background-color: #f8f1e8 ;
 }
 
 footer {
@@ -53,6 +56,6 @@ footer {
     text-align: center;
     margin: 10px;
     border-radius: 10px;
-    border: #e4bc6e solid 2px;
+    border: #e9d0b3 solid 2px;
     background-color: #d8ac79;
 }
