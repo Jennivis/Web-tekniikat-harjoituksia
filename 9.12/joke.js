@@ -5,7 +5,7 @@ function get_joke_of_the_day() {
          let joke = JSON.parse(this.response)
 	     // Access the result here
 	     document.getElementById("joke").innerHTML = joke.contents.jokes[0].joke.text;
-         document.getElementById("copyright").innerHTML = "&copy;" + joke.contents.copyright;
+         document.getElementById("copyright").innerHTML = "<i>&copy;" + joke.contents.copyright + "</i>";
 	 }
     };
     xhttp.open("GET", "https://api.jokes.one/jod?category=blonde", true);
