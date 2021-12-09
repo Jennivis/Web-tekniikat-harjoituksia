@@ -1,0 +1,30 @@
+nav {
+    margin: 10px;
+    border-radius: 10px;
+    border: #e4bc6e solid 2px;
+}
+
+#carouselExampleSlidesOnly {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 5px;
+}
+
+.container {
+    text-align: center;
+}
+
+footer {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    border: #e4bc6e solid 2px;
+    background-color: #d8ac79;
+}
