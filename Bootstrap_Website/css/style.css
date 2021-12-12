@@ -35,6 +35,7 @@ p {
 .accordion {
     margin: 10px;
     border-radius: 5px;
+    padding-top: 12px;
 }
 
 .accordion-button {
@@ -63,4 +64,13 @@ footer {
     border-radius: 10px;
     border: #e9d0b3 solid 2px;
     background-color: #d8ac79;
+}
+
+table {
+    margin: 10px;
+}
+
+#logoHorse {
+    padding: 10px;
+    width: 70px;
 }

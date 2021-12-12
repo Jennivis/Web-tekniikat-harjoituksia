@@ -75,3 +75,12 @@ footer {
     border: #e9d0b3 solid 2px;
     background-color: #d8ac79;
 }
+
+table {
+    margin: 10px;
+}
+
+#logoHorse {
+    padding: 10px;
+    width: 70px;
+}
