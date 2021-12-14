@@ -27,9 +27,15 @@ img {
 }
 
 p {
-    padding: 50px;
-    font-size: 1.5em;
+    padding: 50px 50px 25px 50px;
+    font-size: 1.2em;
     font-style: italic;
+}
+
+.btn, .btn-primary {
+    margin-bottom: 30px;
+    color: #886B49;
+    font-weight: bold;
 }
 
 .accordion {
