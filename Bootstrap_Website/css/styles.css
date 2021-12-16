@@ -59,7 +59,6 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
-    border-radius: 10px;
     border: #e9d0b3 solid 2px;
     background-color: #d8ac79;
 }

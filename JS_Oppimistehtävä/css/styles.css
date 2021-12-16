@@ -1,7 +1,3 @@
-* {
-    
-}
-
 #content {
     display: grid;
     width: 100%;
@@ -38,10 +34,6 @@ nav {
     border: #D38D8E solid 3px;
     border-radius: 5px;
     background-color: #D9C0CD
-}
-
-div {
-    ;
 }
 
 article {

@@ -42,11 +42,21 @@ p {
     border: none;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .img-fluid {
     margin: 20px;
 }
 
-#jumpPic {
+#jumpimg {
+    margin: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#smallpic {
     margin: 20px;
     width: 300px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -70,4 +80,32 @@ table {
 #logoHorse {
     padding: 10px;
     width: 70px;
+}
+
+@media screen and (max-width: 1200px) {
+    .jumptext {
+        font-size: 12px;
+    }
+
+    #smallpic {
+        width: 250px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #smallpic {
+        width: 500px;
+        margin: 20px 0px 20px 80px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #smallpic {
+        margin: auto;
+    }
+
+    .img-fluid {
+        width: 150px;
+    }
 }
