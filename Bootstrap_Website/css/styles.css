@@ -32,6 +32,12 @@ p {
     font-style: italic;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+
 .btn, .btn-primary {
     margin-bottom: 30px;
     color: #886B49;

@@ -35,6 +35,12 @@ p {
     padding: 20px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+
 .card {
     background-color: #f3e8d9;
     padding: 10px 10px 0px 10px;

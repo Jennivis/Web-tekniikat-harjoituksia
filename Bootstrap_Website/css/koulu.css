@@ -25,12 +25,6 @@ img {
     margin: 10px;
 }
 
-/* .col-3, .col-4, .col-2, .col-8 {
-    border: black solid 4px;
-    border-radius: 10px;
-    margin: 5px;
-} */
-
 p {
     margin: 45px;
 }
@@ -41,6 +35,11 @@ p {
     border-radius: 10px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
 
 .card {
     background-color: #f3e8d9;
@@ -82,6 +81,12 @@ table {
 #logoHorse {
     padding: 10px;
     width: 70px;
+}
+
+@media screen and (max-width: 1400px) {
+    .card {
+        padding-bottom: 100px;
+    }
 }
 
 @media screen and (max-width: 1200px) {
