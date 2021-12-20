@@ -8,7 +8,7 @@ function get_joke_of_the_day() {
          document.getElementById("copyright").innerHTML = "<i>&copy;" + joke.contents.copyright + "</i>";
 	 }
     };
-    xhttp.open("GET", "https://api.jokes.one/jod?category=blonde", true);
+    xhttp.open("GET", "https://api.jokes.one/jod?category=animal", true);
     xhttp.setRequestHeader("Content-type", "application/json");
     xhttp.setRequestHeader("X-JokesOne-Api-Secret", "YOUR API HERE");
     xhttp.send();
