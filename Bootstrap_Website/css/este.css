@@ -2,23 +2,26 @@ body {
     background-color: #f8f1e8;
 }
 
+/*Yläosan kuvakaruselli*/
+#carouselExampleSlidesOnly {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/*Navbar*/
 nav {
     margin: 10px;
     border-radius: 10px;
     border: #e9d0b3 solid 2px;
 }
 
-#carouselExampleSlidesOnly {
-    margin: 10px;
-    border-radius: 10px;
+/*Sivun sisältö*/
+.container {
+    text-align: center;
 }
 
 img {
     border-radius: 5px;
-}
-
-.container {
-    text-align: center;
 }
 
 .col {
@@ -69,6 +72,7 @@ ul {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/*Alatunniste*/
 footer {
     height: auto;
     width: 100%;
@@ -89,6 +93,7 @@ table {
     width: 70px;
 }
 
+/*Responsiivisuus*/
 @media screen and (max-width: 1200px) {
     .jumptext {
         font-size: 12px;

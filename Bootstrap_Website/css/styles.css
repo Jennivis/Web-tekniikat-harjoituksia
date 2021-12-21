@@ -2,21 +2,24 @@ body {
     background-color: #f8f1e8;
 }
 
+/*Yläosan kuvakaruselli*/
+#carouselExampleSlidesOnly {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/*Navbar*/
 nav {
     margin: 10px;
     border-radius: 10px;
     border: #e9d0b3 solid 2px;
 }
 
-#carouselExampleSlidesOnly {
-    margin: 10px;
-    border-radius: 10px;
-}
-
 img {
     border-radius: 5px;
 }
 
+/*Sivun sisältö*/
 .container {
     text-align: center;
 }
@@ -60,6 +63,7 @@ a {
     background-color: #f8f1e8 ;
 }
 
+/*Alatunniste*/
 footer {
     height: auto;
     width: 100%;
