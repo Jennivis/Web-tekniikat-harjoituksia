@@ -1,59 +1,60 @@
+@charset "UTF-8";
 body {
   background-color: #f8f1e8;
 }
 
+/*Yläosan kuvakaruselli*/
+#carouselExampleSlidesOnly {
+  margin: 10px;
+  border-radius: 10px;
+}
+#carouselExampleSlidesOnly img {
+  border-radius: 5px;
+}
+
+/*Navbar*/
 nav {
   margin: 10px;
   border-radius: 10px;
   border: #e9d0b3 solid 2px;
 }
 
-#carouselExampleSlidesOnly {
-  margin: 10px;
-  border-radius: 10px;
-}
-
-img {
-  border-radius: 5px;
-}
-
+/*Sivun sisältö*/
 .container {
   text-align: center;
 }
-
-.col {
+.container .col {
   background-color: #f3e8d9;
   border-radius: 10px;
   margin: 10px;
 }
-
-p {
+.container .col p {
   padding: 50px 50px 25px 50px;
   font-size: 1.2em;
   font-style: italic;
 }
-
-.btn, .btn-primary {
+.container .col p .btn, .container .col p .btn-primary {
   margin-bottom: 30px;
   color: #886B49;
   font-weight: bold;
 }
-
-.accordion {
+.container .col p .btn .accordion, .container .col p .btn-primary .accordion {
   margin: 10px;
   border-radius: 5px;
   padding-top: 12px;
 }
-
-#pic1, #pic2, #pic3 {
+.container .col p .btn .accordion #col-background, .container .col p .btn-primary .accordion #col-background {
+  background-color: #f8f1e8;
+}
+.container .col p .btn .accordion #col-background img, .container .col p .btn-primary .accordion #col-background img {
+  border-radius: 5px;
+}
+.container .col p .btn .accordion #col-background img #pic1, .container .col p .btn .accordion #col-background img #pic2, .container .col p .btn .accordion #col-background img #pic3, .container .col p .btn-primary .accordion #col-background img #pic1, .container .col p .btn-primary .accordion #col-background img #pic2, .container .col p .btn-primary .accordion #col-background img #pic3 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 10px;
 }
 
-#col-background {
-  background-color: #f8f1e8;
-}
-
+/*Alatunniste*/
 footer {
   height: auto;
   width: 100%;
@@ -64,12 +65,10 @@ footer {
   border: #e9d0b3 solid 2px;
   background-color: #d8ac79;
 }
-
-table {
+footer table {
   margin: 10px;
 }
-
-#logoHorse {
+footer table #logoHorse {
   padding: 10px;
   width: 70px;
 }
