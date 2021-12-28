@@ -1,0 +1,130 @@
+body {
+    background-color: #f8f1e8;
+}
+
+/*Yläosan kuvakaruselli*/
+#carouselExampleSlidesOnly {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/*Yläosan ja sisällön kuvakaruselli*/
+.carousel-item > img {
+    border-radius: 5px;
+}
+
+/*Navbar*/
+nav {
+    margin: 10px;
+    border-radius: 10px;
+    border: #e9d0b3 solid 2px;
+}
+
+/*Sivun sisältö*/
+.container {
+    text-align: center;
+}
+
+.col {
+    border-radius: 10px;
+    margin: 10px;
+}
+
+p {
+    margin: 45px;
+}
+
+#box1, #box2, #box3 {
+    background-color: #f3e8d9;
+    padding: 0 20px 0 20px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+
+.card {
+    background-color: #f3e8d9;
+    padding: 10px 20px 0px 20px;
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: #d8ac79;
+    border-color: #cd9453;
+    margin-bottom: 65px;
+}
+
+/*Sivun sisällössä oleva kuvakaruselli*/
+#carouselExampleCaptions {
+    width: 750px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h5 ~ p {
+    font-style: italic;
+}
+
+#box3 {
+    margin: 20px;
+    padding: 40px 0 40px 0;
+}
+
+/*Alatunniste*/
+footer {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: #e9d0b3 solid 2px;
+    background-color: #d8ac79;
+}
+
+table {
+    margin: 10px;
+}
+
+#logoHorse {
+    padding: 10px;
+    width: 70px;
+}
+
+/*Responsiivisuus*/
+@media screen and (max-width: 1400px) {
+    .card {
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .card {
+        margin: auto;
+    }
+
+    #carouselExampleCaptions {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #carouselExampleCaptions {
+        width: 650px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #carouselExampleCaptions {
+        width: 490px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #carouselExampleCaptions {
+        width: 400px;
+    }
+}
